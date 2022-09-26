@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import One from './Components/One/One';
+import Tow from './Components/Tow/Tow';
+import Five from './Components/Five/Five';
+import Four from './Components/Four/Four';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 style={{ margin: '0px', color: 'white', padding: '10px', backgroundColor: 'gray' }}>This is the Start.</h1>
+      <br />
+      <Four></Four>
+
+      
+
+      {/* <One></One>
+      <Tow></Tow> */}
     </div>
   );
 }
